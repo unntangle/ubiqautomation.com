@@ -170,6 +170,7 @@ const organizationJsonLd = {
     sameAs: [
         "https://www.instagram.com/ubiq_automation/",
         "https://www.facebook.com/people/UBIQ-Automation/61594209613014/",
+        "https://www.linkedin.com/company/ubiq-automation/",
     ],
     parentOrganization: {
         "@type": "Organization",

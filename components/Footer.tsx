@@ -42,7 +42,7 @@ const solutionLinks = [
 const socialLinks = [
     { label: 'Instagram', href: 'https://www.instagram.com/ubiq_automation/', icon: Instagram },
     { label: 'Facebook', href: 'https://www.facebook.com/people/UBIQ-Automation/61594209613014/', icon: Facebook },
-    { label: 'LinkedIn', href: '#', icon: Linkedin },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/ubiq-automation/', icon: Linkedin },
 ];
 
 export default function Footer() {
