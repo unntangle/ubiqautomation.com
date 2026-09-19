@@ -5,11 +5,11 @@ import UbiqAboutPage from '@/components/UbiqAboutPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    // Layout template appends " | Unntangle Technologies".
-    title: "About uBIQ",
+    // Layout template appends " | uBIQ".
+    title: "About uBIQ — Vendor-Independent Automation Integrator",
     description:
         "About uBIQ - Unntangle Technologies's smart space automation brand. A vendor-independent integrator that designs intelligent, connected ecosystems for homes, workplaces and commercial spaces. Built on Unntangle Technologies's innovation expertise since 2023.",
     keywords: [

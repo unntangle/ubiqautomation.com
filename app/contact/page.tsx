@@ -5,10 +5,10 @@ import UbiqContactPage from '@/components/UbiqContactPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    title: "Book an Experience",
+    title: "Book a Smart Home Consultation in Chennai",
     description:
         "Book a uBIQ experience. Tell us about your home, villa, office or hotel and our specialists will design an intelligent space around how you live and work.",
     keywords: [

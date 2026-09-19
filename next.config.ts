@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 /**
- * ubiq.unntangle.com — standalone Next.js app for the uBIQ brand site.
+ * ubiqautomation.com — standalone Next.js app for the uBIQ brand site.
  *
  * Forked out of the parent unntangle.com project, where this content used
  * to live under /ubiq/*. Here the same pages sit at the root of their own

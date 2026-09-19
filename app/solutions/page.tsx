@@ -5,11 +5,11 @@ import UbiqSolutionsPage from '@/components/UbiqSolutionsPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    // Layout template appends " | Unntangle Technologies".
-    title: "Solutions",
+    // Layout template appends " | uBIQ".
+    title: "Smart Home & Commercial Automation Solutions",
     description:
         "uBIQ smart space solutions — smart home automation, lighting and climate intelligence, smart shades, audio & entertainment, security & access, energy intelligence, networking and commercial automation. Designed, integrated and unified.",
     keywords: [

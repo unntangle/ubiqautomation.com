@@ -5,10 +5,14 @@ import UbiqProductPage from '@/components/UbiqProductPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    title: "uBIQ Senz — Adaptive Intelligence",
+    // Absolute: the title already leads with the brand, so appending the
+    // " | uBIQ" template would stutter.
+    title: {
+        absolute: "uBIQ Senz — Adaptive Intelligence for Smart Spaces",
+    },
     description:
         "uBIQ Senz is the adaptive intelligence layer behind uBIQ — a behavioural engine that senses occupancy, light, climate and habit, learns your routines, and adapts your space automatically.",
     keywords: [

@@ -12,12 +12,14 @@ import UbiqCTA from '@/components/UbiqCTA';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    // Bare page name; layout template appends " | Unntangle Technologies". Renders as:
-    // "uBIQ — Smart Home Automation | Unntangle Technologies"
-    title: "uBIQ — Smart Space Automation",
+    // Absolute: this is the home page of its own domain, so it opts out of
+    // the "%s | uBIQ" template in app/layout.tsx (which would stutter).
+    title: {
+        absolute: "uBIQ Automation — Smart Home & Building Automation, Chennai",
+    },
     description:
         "uBIQ is Unntangle Technologies's smart space automation brand — intelligent automation for homes, workplaces and commercial spaces: smart home, lighting, KNX, AV, climate, security, energy management and building automation. Built on Unntangle Technologies's innovation expertise since 2023.",
     keywords: [

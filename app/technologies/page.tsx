@@ -5,10 +5,10 @@ import UbiqTechnologiesPage from '@/components/UbiqTechnologiesPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    title: "Technologies",
+    title: "KNX, Crestron, Control4 & Lutron Integration",
     description:
         "The technologies uBIQ integrates — automation platforms (KNX, Crestron, Control4, Lutron, Savant), lighting, voice & AI assistants, AV & entertainment, security, networking, climate, energy and connectivity protocols (Matter, Zigbee, Z-Wave, Thread). A vendor-independent integrator.",
     keywords: [

@@ -3,7 +3,7 @@ import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 
 /**
- * Root layout for ubiq.unntangle.com.
+ * Root layout for ubiqautomation.com.
  *
  * This file is authored for THIS project and is deliberately not copied from
  * the parent unntangle.com app — it's the main thing that differs. The
@@ -40,7 +40,7 @@ const dmSans = DM_Sans({
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 /** The parent studio's site, referenced from JSON-LD. */
 const PARENT_SITE_URL = "https://unntangle.com";

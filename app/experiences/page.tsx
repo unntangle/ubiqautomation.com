@@ -5,10 +5,10 @@ import UbiqExperiencesPage from '@/components/UbiqExperiencesPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    title: "Experiences",
+    title: "Automation for Homes, Villas, Offices & Hotels",
     description:
         "Intelligent environments shaped to how people live, work and host — uBIQ experiences for luxury homes, premium villas, smart apartments, future-ready offices, hotels & hospitality and immersive experience centres.",
     keywords: [

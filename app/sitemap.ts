@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 /**
- * sitemap.xml for ubiq.unntangle.com.
+ * sitemap.xml for ubiqautomation.com.
  *
  * Written for this project (the migration script won't overwrite it).
  * The parent site's sitemap no longer lists /ubiq at all — that subtree is
@@ -13,7 +13,7 @@ import type { MetadataRoute } from "next";
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 type Entry = {
     path: string;

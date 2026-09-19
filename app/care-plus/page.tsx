@@ -5,10 +5,14 @@ import UbiqProductPage from '@/components/UbiqProductPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    title: "uBIQ Care+ — Smart Ownership",
+    // Absolute: the title already leads with the brand, so appending the
+    // " | uBIQ" template would stutter.
+    title: {
+        absolute: "uBIQ Care+ — Smart Home Maintenance & Support Plan",
+    },
     description:
         "uBIQ Care+ is the smart ownership program — continuous device health monitoring, predictive maintenance, energy optimisation and priority human support that keeps your intelligent space at its best for years.",
     keywords: [

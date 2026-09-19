@@ -5,10 +5,14 @@ import UbiqProductPage from '@/components/UbiqProductPage';
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export const metadata: Metadata = {
-    title: "uBIQ Twin — Digital Twin Experience",
+    // Absolute: the title already leads with the brand, so appending the
+    // " | uBIQ" template would stutter.
+    title: {
+        absolute: "uBIQ Twin — Interactive 3D Digital Twin for Spaces",
+    },
     description:
         "uBIQ Twin is the digital experience layer — an interactive 3D digital twin of your space where every room, device and system is visualised and controllable in real time, from anywhere.",
     keywords: [

@@ -1,16 +1,16 @@
 import type { MetadataRoute } from "next";
 
 /**
- * robots.txt for ubiq.unntangle.com.
+ * robots.txt for ubiqautomation.com.
  *
- * A subdomain is a separate host to crawlers, so it needs its own robots.txt
- * and its own Search Console property — the parent unntangle.com robots.txt
- * has no authority here.
+ * This is a separate domain from the parent unntangle.com, so it needs its
+ * own robots.txt and its own Search Console property — the parent's
+ * robots.txt has no authority here.
  */
 
 const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://ubiq.unntangle.com";
+    "https://ubiqautomation.com";
 
 export default function robots(): MetadataRoute.Robots {
     return {

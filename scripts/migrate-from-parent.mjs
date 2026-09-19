@@ -25,7 +25,7 @@
  *   4. Copies the public/ asset folders the site needs, binaries included.
  *
  *   5. Rewrites the /ubiq route prefix to root inside every copied .ts/.tsx
- *      file, and repoints the SITE_URL fallback at this subdomain.
+ *      file, and repoints the SITE_URL fallback at this site's domain.
  *
  * WHAT IT DOES NOT TOUCH
  *
@@ -91,7 +91,7 @@ function assertParentExists() {
         `  This script expects the two projects to be siblings:\n\n` +
         `      Client Websites/\n` +
         `        unntangle.com/          <- parent (source)\n` +
-        `        ubiq.unntangle.com/     <- this project\n\n` +
+        `        ubiqautomation.com/     <- this project\n\n` +
         `  If the parent lives elsewhere, edit PARENT at the top of this file.\n`
     );
     process.exit(1);
@@ -144,11 +144,11 @@ function rewriteRoutes(source) {
     .replace(/\/ubiq(?=["'`#\s)])/g, "/");
 }
 
-/** Repoints the SITE_URL fallback from the parent domain to this subdomain. */
+/** Repoints the SITE_URL fallback from the parent domain to this site's domain. */
 function rewriteSiteUrl(source) {
   return source.replace(
     /"https:\/\/unntangle\.com"/g,
-    '"https://ubiq.unntangle.com"'
+    '"https://ubiqautomation.com"'
   );
 }
 
