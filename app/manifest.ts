@@ -7,9 +7,9 @@ import type { MetadataRoute } from "next";
  * browsers a real name and icon for "Add to home screen" and keeps Lighthouse
  * happy. Icons use the uBIQ mark rather than the Unntangle one.
  *
- * Known gap (inherited from the parent): there are no true 192x192 / 512x512
- * maskable PNGs yet, so no `sizes` is declared rather than claiming dimensions
- * that aren't real. Generate proper icons from the uBIQ mark when there's time.
+ * The 192 and 512 icons are generated from public/uBIQ/fav-icon.png by
+ * scripts/optimize-images.mjs. Re-run `npm run optimize-images` after
+ * changing the source artwork.
  */
 export default function manifest(): MetadataRoute.Manifest {
     return {
@@ -24,12 +24,14 @@ export default function manifest(): MetadataRoute.Manifest {
         orientation: "portrait",
         icons: [
             {
-                src: "/uBIQ/uBIQ-logo.webp",
-                type: "image/webp",
+                src: "/uBIQ/icon-192.png",
+                sizes: "192x192",
+                type: "image/png",
                 purpose: "any",
             },
             {
-                src: "/uBIQ/uBIQ-logo.png",
+                src: "/uBIQ/icon-512.png",
+                sizes: "512x512",
                 type: "image/png",
                 purpose: "any",
             },

@@ -119,9 +119,12 @@ export const metadata: Metadata = {
         images: ["/images/hero.png"],
     },
     icons: {
-        icon: [{ url: "/uBIQ/uBIQ-logo.webp", type: "image/webp" }],
-        shortcut: "/uBIQ/uBIQ-logo.webp",
-        apple: "/uBIQ/uBIQ-logo.webp",
+        icon: [
+            { url: "/uBIQ/favicon-32.png", sizes: "32x32", type: "image/png" },
+            { url: "/uBIQ/icon-192.png", sizes: "192x192", type: "image/png" },
+        ],
+        shortcut: "/uBIQ/favicon-32.png",
+        apple: { url: "/uBIQ/apple-icon-180.png", sizes: "180x180", type: "image/png" },
     },
     manifest: "/manifest.webmanifest",
     robots: {
