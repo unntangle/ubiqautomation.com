@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     // Absolute: this is the home page of its own domain, so it opts out of
     // the "%s | uBIQ" template in app/layout.tsx (which would stutter).
     title: {
-        absolute: "uBIQ Automation — Smart Home & Building Automation, Chennai",
+        absolute: "uBIQ | Smart Home Automation",
     },
     description:
         "uBIQ is Unntangle Technologies's smart space automation brand — intelligent automation for homes, workplaces and commercial spaces: smart home, lighting, KNX, AV, climate, security, energy management and building automation. Built on Unntangle Technologies's innovation expertise since 2023.",

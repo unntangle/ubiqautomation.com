@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "migrate": "node scripts/migrate-from-parent.mjs",
     "optimize-images": "node scripts/optimize-images.mjs",
     "find-unused-assets": "node scripts/find-unused-assets.mjs",
     "dev": "next dev -p 3001",

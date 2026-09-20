@@ -9,7 +9,7 @@ const SITE_URL =
 
 export const metadata: Metadata = {
     // Layout template appends " | uBIQ".
-    title: "About uBIQ — Vendor-Independent Automation Integrator",
+    title: "About uBIQ - Vendor-Independent Automation Integrator",
     description:
         "About uBIQ - Unntangle Technologies's smart space automation brand. A vendor-independent integrator that designs intelligent, connected ecosystems for homes, workplaces and commercial spaces. Built on Unntangle Technologies's innovation expertise since 2023.",
     keywords: [

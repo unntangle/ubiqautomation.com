@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     // Absolute: the title already leads with the brand, so appending the
     // " | uBIQ" template would stutter.
     title: {
-        absolute: "uBIQ Care+ — Smart Home Maintenance & Support Plan",
+        absolute: "uBIQ Care+ - Smart Home Maintenance & Support Plan",
     },
     description:
         "uBIQ Care+ is the smart ownership program — continuous device health monitoring, predictive maintenance, energy optimisation and priority human support that keeps your intelligent space at its best for years.",

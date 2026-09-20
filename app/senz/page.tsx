@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     // Absolute: the title already leads with the brand, so appending the
     // " | uBIQ" template would stutter.
     title: {
-        absolute: "uBIQ Senz — Adaptive Intelligence for Smart Spaces",
+        absolute: "uBIQ Senz - Adaptive Intelligence for Smart Spaces",
     },
     description:
         "uBIQ Senz is the adaptive intelligence layer behind uBIQ — a behavioural engine that senses occupancy, light, climate and habit, learns your routines, and adapts your space automatically.",
