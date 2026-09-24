@@ -267,7 +267,7 @@ function IntelligenceFlow() {
 const journey: { year: string; title: string; text: string }[] = [
     { year: '2023', title: 'Unntangle Technologies is founded', text: 'An innovation studio built around immersive, interactive and intelligent technology.' },
     { year: '2024', title: 'Intelligence meets the built environment', text: 'We begin applying AI, IoT and immersive design to real, lived-in spaces.' },
-    { year: '2025', title: 'uBIQ takes shape', text: 'The smart-space brand forms around one idea — an intelligence layer for spaces.' },
+    { year: '2025', title: 'uBIQ takes shape', text: 'The smart automation brand for home and office forms around one idea — an intelligence layer for spaces.' },
     { year: '2026', title: 'Connected ecosystems', text: 'Senz, Twin and Care+ unite adaptive automation, digital twins and lifelong care.' },
 ];
 
@@ -317,7 +317,7 @@ export default function UbiqAboutPage() {
                         </Reveal>
                         <Reveal delay={0.12}>
                             <p className={styles.heroLead}>
-                                uBIQ is Unntangle&apos;s smart-space brand. We weave the world&apos;s best
+                                uBIQ is Unntangle&apos;s smart automation brand for home and office. We weave the world&apos;s best
                                 automation — KNX, Matter, Crestron, IoT — into a single intelligence layer
                                 that senses, learns and quietly shapes itself around the people inside.
                             </p>
@@ -333,7 +333,7 @@ export default function UbiqAboutPage() {
                             </div>
                         </Reveal>
                         <Reveal delay={0.24}>
-                            <p className={styles.heroCredit}>A smart-space brand by Unntangle Technologies · Since 2023</p>
+                            <p className={styles.heroCredit}>Smart automation solutions for home and office by Unntangle Technologies · Since 2023</p>
                         </Reveal>
                     </div>
 
@@ -350,7 +350,7 @@ export default function UbiqAboutPage() {
                         <Reveal>
                             <div className={styles.splitLeft}>
                                 <span className={styles.tag}>Who we are</span>
-                                <h2 className={styles.h2}>A smart-space brand, built on an innovation studio.</h2>
+                                <h2 className={styles.h2}>Smart automation for home and office, built on an innovation studio.</h2>
                             </div>
                         </Reveal>
                         <Reveal delay={0.1}>

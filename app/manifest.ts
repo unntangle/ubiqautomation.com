@@ -13,7 +13,7 @@ import type { MetadataRoute } from "next";
  */
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: "uBIQ — Smart Space Automation by Unntangle",
+        name: "uBIQ - Smart Automation Solutions for Home and Office",
         short_name: "uBIQ",
         description:
             "Intelligent spaces, seamless experiences. Automation for homes, workplaces and commercial environments.",

@@ -270,7 +270,7 @@ export default function UbiqContactPage() {
                                                             <option>uBIQ Senz — adaptive intelligence</option>
                                                             <option>uBIQ Twin — 3D digital twin</option>
                                                             <option>uBIQ Care+ — ownership program</option>
-                                                            <option>Whole-space automation</option>
+                                                            <option>Whole home or office automation</option>
                                                             <option>Not sure yet</option>
                                                         </select>
                                                         <ChevronDown size={15} className={styles.selectChev} />

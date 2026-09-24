@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     // Layout template appends " | uBIQ".
     title: "Smart Home & Commercial Automation Solutions",
     description:
-        "uBIQ smart space solutions — smart home automation, lighting and climate intelligence, smart shades, audio & entertainment, security & access, energy intelligence, networking and commercial automation. Designed, integrated and unified.",
+        "uBIQ smart automation solutions for home and office — smart home automation, lighting and climate intelligence, smart shades, audio & entertainment, security & access, energy intelligence, networking and commercial automation. Designed, integrated and unified.",
     keywords: [
         "uBIQ solutions",
         "smart home automation",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
                 url: "/images/hero.png",
                 width: 1200,
                 height: 630,
-                alt: "uBIQ Solutions — Smart space automation by Unntangle",
+                alt: "uBIQ Solutions — Smart automation solutions for home and office",
             },
         ],
     },

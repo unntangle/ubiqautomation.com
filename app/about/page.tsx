@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     // Layout template appends " | uBIQ".
     title: "About uBIQ - Vendor-Independent Automation Integrator",
     description:
-        "About uBIQ - Unntangle Technologies's smart space automation brand. A vendor-independent integrator that designs intelligent, connected ecosystems for homes, workplaces and commercial spaces. Built on Unntangle Technologies's innovation expertise since 2023.",
+        "About uBIQ - Unntangle Technologies's smart automation brand for home and office. A vendor-independent integrator that designs intelligent, connected ecosystems for homes, workplaces and commercial spaces. Built on Unntangle Technologies's innovation expertise since 2023.",
     keywords: [
         "about uBIQ",
         "uBIQ brand",
-        "smart space automation brand",
+        "smart automation solutions for home and office",
         "powered by Unntangle Technologies",
         "vendor-independent integrator",
         "intelligent spaces",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     ],
     alternates: { canonical: "/about" },
     openGraph: {
-        title: "About uBIQ - Smart Space Automation by Unntangle Technologies",
+        title: "About uBIQ - Smart Automation Solutions for Home and Office",
         description:
             "We design intelligent spaces, not just install devices. uBIQ by Unntangle Technologies unites world-class technologies into one seamless intelligence layer.",
         url: `${SITE_URL}/about`,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
                 url: "/images/hero.png",
                 width: 1200,
                 height: 630,
-                alt: "About uBIQ - Smart Space Automation by Unntangle Technologies",
+                alt: "About uBIQ - Smart Automation Solutions for Home and Office",
             },
         ],
     },
@@ -44,7 +44,7 @@ const aboutPageJsonLd = {
     "@type": "AboutPage",
     "@id": `${SITE_URL}/about#webpage`,
     url: `${SITE_URL}/about`,
-    name: "About uBIQ - Smart Space Automation by Unntangle Technologies",
+    name: "About uBIQ - Smart Automation Solutions for Home and Office",
     isPartOf: { "@id": `${SITE_URL}/#website` },
     about: { "@id": `${SITE_URL}/#brand` },
     breadcrumb: {

@@ -4,7 +4,7 @@ import { motion, Variants } from 'framer-motion';
 import { Home, Building, Building2, BedDouble } from 'lucide-react';
 import styles from './UbiqSpaces.module.css';
 
-/* uBIQ Smart Space Solutions — the environments uBIQ makes intelligent. */
+/* uBIQ Smart Automation Solutions — the environments uBIQ makes intelligent. */
 
 const spaces = [
     { icon: <Home size={22} strokeWidth={1.7} />, title: 'Smart Villas', note: 'Whole-property intelligence for luxury residences.' },
@@ -31,7 +31,7 @@ export default function UbiqSpaces() {
                     viewport={REVEAL}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className={styles.eyebrow}>Smart Space Solutions</span>
+                    <span className={styles.eyebrow}>Smart Automation Solutions</span>
                     <h2 className={styles.title}>Intelligence, shaped to the space</h2>
                 </motion.div>
 

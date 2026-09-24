@@ -62,7 +62,7 @@ export const metadata: Metadata = {
         // "About uBIQ") and this template completes it. The home page opts
         // out via title.absolute.
         template: "%s | uBIQ",
-        default: "uBIQ — Smart Space Automation by Unntangle",
+        default: "uBIQ - Smart Automation Solutions for Home and Office",
     },
     description:
         "uBIQ by Unntangle turns homes, workplaces and commercial environments into adaptive, connected spaces — smart home, lighting, KNX, AV, climate, security, energy management and building automation.",
@@ -73,7 +73,8 @@ export const metadata: Metadata = {
     generator: "Next.js",
     keywords: [
         "uBIQ",
-        "smart space automation",
+        "smart automation solutions",
+        "home and office automation",
         "home automation",
         "smart home automation",
         "KNX",
@@ -97,7 +98,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: "website",
         siteName: "uBIQ",
-        title: "uBIQ — Smart Space Automation by Unntangle",
+        title: "uBIQ - Smart Automation Solutions for Home and Office",
         description:
             "Intelligent spaces, seamless experiences. Automation for homes, workplaces and commercial environments — designed, integrated and unified.",
         url: SITE_URL,
@@ -107,13 +108,13 @@ export const metadata: Metadata = {
                 url: "/images/hero.png",
                 width: 1200,
                 height: 630,
-                alt: "uBIQ — Smart Space Automation by Unntangle",
+                alt: "uBIQ - Smart Automation Solutions for Home and Office",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "uBIQ — Smart Space Automation by Unntangle",
+        title: "uBIQ - Smart Automation Solutions for Home and Office",
         description:
             "Intelligent spaces, seamless experiences. Automation for homes, workplaces and commercial environments.",
         images: ["/images/hero.png"],
@@ -168,7 +169,7 @@ const organizationJsonLd = {
     },
     image: `${SITE_URL}/images/hero.png`,
     description:
-        "uBIQ is Unntangle's smart space automation brand — design, integration and support of intelligent automation for homes, workplaces and commercial spaces.",
+        "uBIQ is Unntangle's smart automation brand for home and office — design, integration and support of intelligent automation for homes, workplaces and commercial spaces.",
     foundingDate: "2023",
     sameAs: [
         "https://www.instagram.com/ubiq_automation/",
@@ -206,7 +207,7 @@ const websiteJsonLd = {
     url: SITE_URL,
     name: "uBIQ",
     description:
-        "Smart space automation for homes, workplaces and commercial environments.",
+        "Smart automation solutions for home and office — homes, workplaces and commercial environments.",
     publisher: { "@id": `${SITE_URL}/#organization` },
     inLanguage: "en-US",
 };
