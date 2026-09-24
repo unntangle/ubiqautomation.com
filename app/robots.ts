@@ -18,12 +18,12 @@ export default function robots(): MetadataRoute.Robots {
             {
                 userAgent: "*",
                 allow: "/",
-                disallow: ["/api/", "/_next/"],
+                disallow: ["/api/"],
             },
             {
                 userAgent: ["Googlebot", "Bingbot"],
                 allow: "/",
-                disallow: ["/api/", "/_next/"],
+                disallow: ["/api/"],
             },
         ],
         sitemap: `${SITE_URL}/sitemap.xml`,
